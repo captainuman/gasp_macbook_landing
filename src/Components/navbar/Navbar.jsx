@@ -4,10 +4,10 @@ import { navlink } from '../../constants'
 const Navbar = () => {
   return (
     <header className='text-white'>
-        <nav className='flex justify-between px-10 h-15 py-2'>
+        <nav className='flex justify-between px-30 h-15 py-2 w-screen'>
             <img className='invert' src="images/applelogo.png" alt="" />
 
-            <ul className='flex gap-10 items-center'>
+            <ul className='flex gap-10 items-center opacity-90 text-sm'>
                 {navlink.map(({label})=>(
                     <li key={label}>
                         <a href={label}>{label}</a>

@@ -1,9 +1,11 @@
+import Body from "./Components/homepage/body"
 import Navbar from "./Components/navbar/Navbar"
 
 const App = () => {
   return (
-    <div className="bg-black">
+    <div className="bg-black w-screen">
       <Navbar/>
+      <Body/>
     </div>
   )
 }
