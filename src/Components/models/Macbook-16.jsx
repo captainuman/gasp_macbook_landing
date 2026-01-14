@@ -57,4 +57,4 @@ export default function MacbookModel16(props) {
   );
 }
 
-useGLTF.preload("/models/macbook-16-transformed.glb");
+useGLTF.preload("./models/macbook-16-transformed.glb");
