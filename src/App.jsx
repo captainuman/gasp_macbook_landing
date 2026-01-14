@@ -1,4 +1,4 @@
-import NavBar from "./Components/NavBar.jsx";
+import NavBar from "./Components/Navbar.jsx";
 import ProductViewer from "./Components/ProductViewer.jsx";
 import Showcase from "./Components/Showcase.jsx";
 import Performance from "./Components/Performance.jsx";
